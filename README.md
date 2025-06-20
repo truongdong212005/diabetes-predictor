@@ -44,14 +44,21 @@ diabetes-predictor/
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1. Create the virtual environment
+
+```
+python -m venv diabetes-app
+source diabetes-app/bin/activate
+```
+
+### 2. Clone the Repository
 
 ```bash
 git clone https://github.com/truongdong212005/diabetes-predictor.git
 cd diabetes-predictor
 ```
 
-### 2. Train the Model
+### 3. Train the Model
 
 ```bash
 python train_model.py
@@ -62,7 +69,7 @@ This script:
 - Trains a regression model (using RandomForestRegressor)
 - Saves it as `diabetes_model.pkl`
 
-### 3. Run the API Server (Locally)
+### 4. Run the API Server (Locally)
 
 #### Install dependencies:
 
