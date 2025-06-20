@@ -28,9 +28,12 @@ This project builds and deploys a machine learning model to predict diabetes pro
 ```
 diabetes-predictor/
 │
-├── app/template/index.html
-├── app/main.py
-├── models/diabetes_model.pkl
+├── app
+    ├── template
+        ├──index.html
+    ├── main.py
+├── models
+    ├── diabetes_model.pkl
 ├── train_model.py
 ├── Dockerfile
 ├── requirements.txt
