@@ -73,7 +73,7 @@ pip install -r requirements.txt
 #### Start FastAPI with Uvicorn:
 
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 Now visit: `http://127.0.0.1:8000/docs` for interactive Swagger UI.
